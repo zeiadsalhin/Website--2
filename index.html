@@ -15,12 +15,16 @@
     <img src="https://cdn0.iconfinder.com/data/icons/phosphor-regular-vol-3/256/globe-256.png" width="40" class="mr-2" alt="logo">
     <a href="" class="inline-block p-3 mr-2 hover:text-blue-500">Home</a>
     <a href="" class="inline-block mr-2 hover:text-blue-500">Contact us</a>
+    
   </div>
 
   <!--Right-->
-  <div>
+  <div class="md:flex inline-block">
+    <form action="search1.php" method="POST" class="flex">
+      <button class="mr-4 text-xl bg-yellow-600 text-red-800 px-4 hover:bg-yellow-500">search</button>
+    </form>
     <a href="" class="py-2 px-3 mr-2 rounded hover:bg-yellow-300 hover:text-yellow-700 transition ease-in inline-block bg-yellow-200 text-yellow-600">login</a>
-    <a href="" class="text-yellow-800 hover:text-yellow-500">sign up</a>
+    <a href="" class="py-2 px-3 mr-2 inline-block text-yellow-800 hover:text-yellow-500">sign up</a>
   </div>
 </div>
 
@@ -74,12 +78,16 @@
   <div class="md:w-1/2">
     <h3 class="text-xl mb-4 font-bold">Join now!</h3>
 
-    <form action="dataserver1.php" method="POST" data-netlify="true" class="flex">
+    
+
+    <form action="dataserver1.php" data-netlify="true" method="POST" class="flex">
       <input type="email" name="email" class="w-full py-3 px-4 outline-none focus:bg-indigo-100 rounded-l" required>
       <button class="text-xl bg-yellow-600 text-red-800 px-5 hover:bg-yellow-500">Join</button>
 
 
     </form>
+
+   
 
 
 

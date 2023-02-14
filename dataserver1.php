@@ -15,7 +15,7 @@ die('Connect Error ('. mysqli_connect_errno() .') '
 . mysqli_connect_error());
 }
 else{
-$sql = "INSERT INTO email (email)
+$sql = "INSERT INTO emails (email)
 values ('$email')";
 if ($conn->query($sql)){
 echo "New record is inserted sucessfully";
